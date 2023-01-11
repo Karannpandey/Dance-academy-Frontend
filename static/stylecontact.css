@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,300&family=Yeon+Sung&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0px;
+}
+
+h1{
+    text-align: center;
+    margin: 12px 0;
+}
+
+
+.myForm{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.myInput{
+    width:40%;
+    border: 2px solid rgb(165, 55, 55);;
+    padding:9px;
+    margin: 8px;
+    border-radius: 12px;
+    font-size: 16px;
+    /* outline: none; */
+     
+}
+
+.btn{
+    padding: 6px;
+    margin: 12px;
+    cursor: pointer;
+    font-size: 12px;
+    border: 2px solid black;
+    border-radius: 12px;
+    color: white;
+    background-color: rgb(146, 67, 67);
+
+
+}
+
+.container{
+    justify-content: center;
+    align-items: center;
+    min-height: 80vh;
+    display: flex;
+    flex-direction: column;
+    /* margin: 43px 0;  */
+    
+}
+.container h1{
+    font-family: 'Josefin Sans', sans-serif;
+}
