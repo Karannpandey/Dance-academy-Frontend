@@ -1,0 +1,69 @@
+@media only screen and (max-width : 1170px){
+    #navbar{
+        flex-direction: column;
+    }
+    #navbar ul li a{
+        font-size: 1rem;
+        padding: 0px 11px;
+        /* padding-bottom: 9px; */
+    }
+    .card{
+        width: 30%;
+        padding: 3px;
+        margin: 19px;
+        margin-top: 10px;
+        margin-left: -11px;
+        display: inline-block;
+        /* flex-direction: row; */
+
+    }
+    #cardmid{
+        width: 30%;
+        padding: 3px;
+        margin: 19px;
+        margin-top: 10px;
+        margin-left: -11px;
+        display: inline-block;
+        margin-top: 10px;
+    }
+    .card-box{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .card-img img{
+        height: 29px;
+        padding-right: -2px;
+
+    }
+    .card-content{
+        /* padding: 0px 10px; */
+        font-size: 1rem;
+    }
+
+    
+    .spImage{
+       
+        width: 100px;
+        height: auto;
+        margin: 12px;
+
+    }
+
+    #sponsors{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #introSection{
+        font-size: 2.4rem;
+
+    }
+
+    #logo img{
+        height: 36px;
+        width: 30px;
+    }
+
+}   
